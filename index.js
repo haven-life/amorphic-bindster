@@ -2461,3 +2461,33 @@ BindsterControllerInterface.prototype.createEvent = function(node, event_name, o
     node.bindster.mouse_state =  'unknown';
     return new Function("ev", "ev = ev ? ev : event;" + function_body);
 }
+
+/** 
+ * typescript compiled js
+ * 
+ * The purpose of this is to have the es6 style classes in this es5 library
+ */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+function Bindable (Base) {
+	return (function n(_super) {
+		__extends(classOne, _super);
+
+		function classOne() {
+			return _super !== null && _super.apply(this, arguments) || this;
+		}
+
+		return classOne;
+	}(Base));
+}
+
+module.exports = {Bindable: Bindable};
