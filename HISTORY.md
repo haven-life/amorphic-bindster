@@ -1,3 +1,5 @@
+## 2.0.2
+* Remove eslint globals
 ## 2.0.1
 * Typescript typings
 ## 2.0.0

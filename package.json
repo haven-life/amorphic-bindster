@@ -1,10 +1,10 @@
 {
   "name": "amorphic-bindster",
   "description": "bindster support for amorphic",
-  "homepage": "https://github.com/selsamman/amorphic-bindster",
-  "version": "2.0.1",
+  "homepage": "https://github.com/haven-life/amorphic-bindster",
+  "version": "2.0.2",
   "dependencies": {
-      "q": "1.x"
+    "q": "1.x"
   },
   "devDependencies": {
     "chai": "3.x",
@@ -23,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/selsamman/amorphic-bindster.git"
+    "url": "git://github.com/haven-life/amorphic-bindster.git"
   },
   "bugs": {
-    "url": "http://github.com/selsamman/amorphic-bindster/issues"
+    "url": "https://github.com/haven-life/amorphic-bindster/issues"
   },
   "optionalDependencies": {},
   "readme": "# amorphic-bindster\r\n\r\n## Purpose\r\n\r\nBinds bindster to an amorphic controller and makes bindster itself available to the client.\r\n\r\n## Installation\r\n\r\nInstalled automatically with amorphic\r\n\r\n## License\r\n\r\nsuperType is licensed under the MIT license\r\n\r\n\r\n\r\n",
