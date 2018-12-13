@@ -2465,7 +2465,8 @@ BindsterControllerInterface.prototype.createEvent = function(node, event_name, o
 /** 
  * typescript compiled js
  * 
- * The purpose of this is to have the es6 style classes in this es5 library
+ * The purpose of this is to have the typescript style classes in this es5 library
+ * When we convert bindster to typescript we can get rid of this
  */
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
