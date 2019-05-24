@@ -1,3 +1,5 @@
+## 2.1.0
+* Moving the targeted npm repository to @havenlife/amorphic-bindster
 ## 2.0.2
 * Remove eslint globals
 ## 2.0.1
@@ -123,4 +125,3 @@ the previous route
 ## 0.1.13
 * Fixed a problem where routes could not be re-initialized
 * Added tests
-

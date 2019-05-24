@@ -1,8 +1,8 @@
 {
-  "name": "amorphic-bindster",
+  "name": "@havenlife/amorphic-bindster",
   "description": "bindster support for amorphic",
   "homepage": "https://github.com/haven-life/amorphic-bindster",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "dependencies": {
     "q": "1.x"
   },
